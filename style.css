@@ -1,0 +1,292 @@
+
+@charset "utf-8"
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: 0;
+    color: black;
+}
+
+/* ------초기화----- */
+
+header {
+    margin: 0 auto;
+    width: 1100px;
+
+    /* border: 1px solid black; */
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.top {
+    margin-top: 0;
+    padding: 10px 0;
+    display: flex;
+    width: 1100px;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    width: 150px;
+    height: 52px;
+    background: url(./img/image-view.png) no-repeat;
+
+}
+
+.nav {
+    width: 900px;
+}
+
+.navList {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+.item {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input {
+    width: 38px;
+    height: 38px;
+    background: url(./img/ico_searchB.png);
+    position: absolute;
+    background-size: contain;
+    right: 10px;
+    top: 25px;
+}
+
+.slide {
+    width: 1100px;
+    height: 458px;
+    margin-top: 30px;
+    background: url(./img/image-view\ \(7\).jpg) no-repeat;
+    background-size: auto 100%;
+}
+
+section {
+    width: 1100px;
+    height: 1500px;
+    margin: 0 auto;
+}
+
+.explain {
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.story {
+    width: 1100px;
+    margin-top: 60px;
+}
+
+.explain>hr {
+    margin: 5px;
+}
+
+.explain>h2 {
+    margin: 0;
+}
+
+.fontLightGray {
+    color: rgb(107, 107, 107);
+    padding-top: 0;
+    margin-top: 0
+}
+
+.con {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    ;
+}
+
+.libox .box {
+    width: 500px;
+    padding-top: 50px;
+
+    text-align: center;
+    line-height: 8px;
+}
+
+.libox .img {
+    width: 500px;
+    height: 225px;
+    background: url(./img/image-view\ \(3\).jpg) no-repeat;
+    background-size: contain;
+    padding-bottom: 15px;
+}
+
+.fontGray {
+    color: gray;
+    font-weight: 600;
+}
+
+.libox>a {
+    display: inline-block;
+    height: 30px;
+    margin-top: 15px;
+    padding: 5px 50px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    line-height: 30px;
+
+}
+
+.buttonBorder {
+    transition: color 0.01s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.buttonBorder:hover {
+    background-color: #fd8204;
+    border: none;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #fd8204;
+    cursor: pointer;
+}
+
+.fullBanner1 {
+    margin-top: 100px;
+    width: 1100px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+}
+
+.fullBanner1>.left {
+    width: 60%;
+    background: url(./img/image-view\ \(5\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.fullBanner1>.right {
+    width: 220px;
+    height: 300px;
+    margin: auto;
+    font-size: 14px;
+
+}
+
+.font.fontBold {
+    font-weight: 600;
+}
+
+.rigthImg {
+    width: 220px;
+    height: 209px;
+    background: url(./img/image-view\ \(1\).png)no-repeat;
+    background-size: cover;
+}
+
+.footer1 {
+    width: 1100px;
+    margin: 50px auto 0;
+    display: flex;
+}
+
+.callCenter {
+    width: 500px;
+    height: 300px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.T1{
+    font-size: 40px;
+    color: rgb(53, 53, 53);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.callCenter>a{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 15px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    border: 1px solid gray;
+}
+.notice {
+    width: 500px;
+    height: 300px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 25px;
+    font-size: 24px;
+    font-weight:600;  
+}
+.notice>ul{
+    padding-left: 0;
+    margin-top: 10px;
+}
+.font.T2{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+}
+.footer2{
+   
+    width: 100%;
+    height: 500px;
+    background-color: rgb(53, 53, 53);
+}
+footer>.footer2>.last{
+    
+    margin: 0 auto ;
+    width: 1100px;
+    height: 500px;
+    
+    display: flex;
+}
+
+.footer2>.last>.left{
+    margin-top: 50px;
+    width: 550px;
+    height: 300px;
+    
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.footer2>.last>.left>.T2{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.footer2>.last>.right{
+    margin-top: 50px;
+    width: 550px;
+    height: 500px;
+   
+}
+.footer2>.last>.right>.sns{
+   
+    display: flex;
+   
+}
+.footer2>.last>.right>.sns>.item{
+    
+}
